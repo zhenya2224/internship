@@ -439,10 +439,10 @@ p.terms a {
   .try-business-footer {
     text-align: center; }
   #ac-globalfooter .ac-gf-directory-column-section-title:after {
-    content: '';
+    content: ''!important;
     float: right;
     font-weight: normal;
-    margin-right: 8px;
+    margin-right: 55px;
     -webkit-transition: -webkit-transform .3s ease;
     transition: transform .3s ease; } }
 
