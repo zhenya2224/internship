@@ -1,3 +1,7 @@
+$font-stack:    Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+$main-font-stack:  "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -7,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -69,7 +73,7 @@ html {
 
 .navbar-default .navbar-nav>li>a {
 	    color: #2F2F2F;
-	    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	    font-family: $font-stack;
 	    padding: inherit 1.5em;
 }
 
@@ -137,7 +141,7 @@ section.hero{
     background: #f7f7f7;
     padding: 0;
     overflow: hidden;
-    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    font-family:$main-font-stack;
 }
 
 .hero-background{
@@ -180,7 +184,7 @@ section.hero{
     padding-bottom: 0;
     font-weight: 100;
     line-height: 1.3;
-    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    font-family: $main-font-stack;
     padding: 0;
     box-sizing:border-box;
 }
@@ -295,7 +299,7 @@ p {
 }
 
 form label {
-    font-family: "Open Sans", open-sans, sans-serif;
+    font-family:$main-font-stack;
     position: absolute;
     top: 0;
     left: 0;
@@ -385,7 +389,7 @@ p.button button {
 
 p.terms {
     font-size: 12px;
-    font-family: "Open Sans", open-sans, sans-serif;
+    font-family: $main-font-stack;
 }
 
 p.terms a {
@@ -461,7 +465,7 @@ p.terms a {
 }
 
 .oculus {
-    font-family: "Open Sans", open-sans, sans-serif;
+    font-family:$main-font-stack;
 }
 
 
@@ -542,7 +546,7 @@ p.button {
 
 @media (max-width: 399px){
 .top-section-container {
-    left: -12px;
+        left: -12px;
     }
 
 .inside h2 {
@@ -556,8 +560,8 @@ section.sign-up{
 
 }
 @media (min-width: 300px){
-.hero-header,.hero-sub-header {
-    text-align: center;
+    .hero-header,.hero-sub-header {
+        text-align: center;
     }
 }
 
@@ -692,5 +696,3 @@ section.sign-up{
     background-size: 141px auto;
 }
 }
-
-
